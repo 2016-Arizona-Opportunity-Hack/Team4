@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Oct 02, 2016 at 02:47 AM
+-- Generation Time: Oct 02, 2016 at 03:15 AM
 -- Server version: 5.5.49-log
 -- PHP Version: 7.0.9
 
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   `option_name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `option_value` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
   `autoload` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'yes'
-) ENGINE=InnoDB AUTO_INCREMENT=148 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=159 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `wp_options`
@@ -143,8 +143,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (37, 'gmt_offset', '0', 'yes'),
 (38, 'default_email_category', '1', 'yes'),
 (39, 'recently_edited', '', 'no'),
-(40, 'template', 'twentyfourteen', 'yes'),
-(41, 'stylesheet', 'twentyfourteen', 'yes'),
+(40, 'template', 'shapely', 'yes'),
+(41, 'stylesheet', 'shapely', 'yes'),
 (42, 'comment_whitelist', '1', 'yes'),
 (43, 'blacklist_keys', '', 'no'),
 (44, 'comment_registration', '0', 'yes'),
@@ -201,7 +201,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (95, 'widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes'),
 (96, 'widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes'),
 (97, 'widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes'),
-(98, 'sidebars_widgets', 'a:3:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:13:"array_version";i:3;}', 'yes'),
+(98, 'sidebars_widgets', 'a:8:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:12:"sidebar-home";N;s:15:"footer-widget-1";N;s:15:"footer-widget-2";N;s:15:"footer-widget-3";N;s:15:"footer-widget-4";N;s:13:"array_version";i:3;}', 'yes'),
 (99, 'widget_pages', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (100, 'widget_calendar', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (101, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
@@ -209,7 +209,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (103, 'cron', 'a:3:{i:1475417583;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1475462520;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
 (107, '_site_transient_update_core', 'O:8:"stdClass":4:{s:7:"updates";a:1:{i:0;O:8:"stdClass":10:{s:8:"response";s:6:"latest";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-4.6.1.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-4.6.1.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-4.6.1-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-4.6.1-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"4.6.1";s:7:"version";s:5:"4.6.1";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"4.4";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1475374393;s:15:"version_checked";s:5:"4.6.1";s:12:"translations";a:0:{}}', 'no'),
 (109, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1475374394;s:8:"response";a:0:{}s:12:"translations";a:0:{}s:9:"no_update";a:2:{s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:3:"3.2";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:54:"https://downloads.wordpress.org/plugin/akismet.3.2.zip";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}}}', 'no'),
-(112, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1475374394;s:7:"checked";a:3:{s:13:"twentyfifteen";s:3:"1.6";s:14:"twentyfourteen";s:3:"1.8";s:13:"twentysixteen";s:3:"1.3";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'no'),
+(112, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1475378046;s:7:"checked";a:4:{s:7:"shapely";s:5:"1.0.5";s:13:"twentyfifteen";s:3:"1.6";s:14:"twentyfourteen";s:3:"1.8";s:13:"twentysixteen";s:3:"1.3";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'no'),
 (113, '_site_transient_timeout_browser_51874df863d9bfae72869c204369dfc7', '1475980920', 'no'),
 (114, '_site_transient_browser_51874df863d9bfae72869c204369dfc7', 'a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:13:"53.0.2785.116";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}', 'no'),
 (116, '_transient_timeout_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca', '1475419322', 'no');
@@ -233,18 +233,28 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (130, '_transient_timeout_dash_88ae138922fe95674369b1cb3d215a2b', '1475419323', 'no'),
 (131, '_transient_dash_88ae138922fe95674369b1cb3d215a2b', '<div class="rss-widget"><ul><li><a class=''rsswidget'' href=''https://wordpress.org/news/2016/09/wordpress-4-6-1-security-and-maintenance-release/''>WordPress 4.6.1 Security and Maintenance Release</a> <span class="rss-date">September 7, 2016</span><div class="rssSummary">WordPress 4.6.1 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.6 and earlier are affected by two security issues: a cross-site scripting vulnerability via image filename, reported by SumOfPwn researcher Cengiz Han Sahin; and a path traversal vulnerability in [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=''rsswidget'' href=''http://heropress.com/essays/rebirth/''>HeroPress: Rebirth</a></li><li><a class=''rsswidget'' href=''https://poststatus.com/art-self-employed-web-consultant-draft-podcast/''>Post Status: The art of being a self-employed web consultant — Draft podcast</a></li><li><a class=''rsswidget'' href=''http://heropress.com/essays/growing-up-with-wordpress/''>HeroPress: Growing Up With WordPress</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Popular Plugin:</span> UpdraftPlus WordPress Backup Plugin&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=updraftplus&amp;_wpnonce=a93b6c9861&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Install UpdraftPlus WordPress Backup Plugin">(Install)</a></li></ul></div>', 'no'),
 (132, 'can_compress_scripts', '0', 'no'),
-(133, '_site_transient_timeout_theme_roots', '1475378164', 'no'),
-(134, '_site_transient_theme_roots', 'a:3:{s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
+(133, '_site_transient_timeout_theme_roots', '1475379842', 'no'),
+(134, '_site_transient_theme_roots', 'a:4:{s:7:"shapely";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
 (137, '_transient_is_multi_author', '0', 'yes'),
 (138, '_transient_twentysixteen_categories', '1', 'yes'),
 (139, 'widget_widget_twentyfourteen_ephemera', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (141, '_transient_twentyfourteen_category_count', '1', 'yes'),
 (142, 'theme_mods_twentysixteen', 'a:1:{s:16:"sidebars_widgets";a:2:{s:4:"time";i:1475376394;s:4:"data";a:2:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}}}}', 'yes'),
-(143, 'current_theme', 'Twenty Fourteen', 'yes'),
-(144, 'theme_mods_twentyfourteen', 'a:1:{i:0;b:0;}', 'yes'),
+(143, 'current_theme', 'Shapely', 'yes'),
+(144, 'theme_mods_twentyfourteen', 'a:2:{i:0;b:0;s:16:"sidebars_widgets";a:2:{s:4:"time";i:1475378050;s:4:"data";a:2:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}}}}', 'yes'),
 (145, 'theme_switched', '', 'yes'),
 (146, 'theme_switched_via_customizer', '', 'yes'),
-(147, '_transient_featured_content_ids', 'a:0:{}', 'yes');
+(148, '_site_transient_timeout_wporg_theme_feature_list', '1475388842', 'no'),
+(149, '_site_transient_wporg_theme_feature_list', 'a:3:{s:6:"Layout";a:7:{i:0;s:11:"grid-layout";i:1;s:10:"one-column";i:2;s:11:"two-columns";i:3;s:13:"three-columns";i:4;s:12:"four-columns";i:5;s:12:"left-sidebar";i:6;s:13:"right-sidebar";}s:8:"Features";a:20:{i:0;s:19:"accessibility-ready";i:1;s:10:"buddypress";i:2;s:17:"custom-background";i:3;s:13:"custom-colors";i:4;s:13:"custom-header";i:5;s:11:"custom-menu";i:6;s:12:"editor-style";i:7;s:21:"featured-image-header";i:8;s:15:"featured-images";i:9;s:15:"flexible-header";i:10;s:14:"footer-widgets";i:11;s:20:"front-page-post-form";i:12;s:19:"full-width-template";i:13;s:12:"microformats";i:14;s:12:"post-formats";i:15;s:20:"rtl-language-support";i:16;s:11:"sticky-post";i:17;s:13:"theme-options";i:18;s:17:"threaded-comments";i:19;s:17:"translation-ready";}s:7:"Subject";a:9:{i:0;s:4:"blog";i:1;s:10:"e-commerce";i:2;s:9:"education";i:3;s:13:"entertainment";i:4;s:14:"food-and-drink";i:5;s:7:"holiday";i:6;s:4:"news";i:7;s:11:"photography";i:8;s:9:"portfolio";}}', 'no'),
+(150, 'theme_mods_shapely', 'a:1:{i:0;b:0;}', 'yes'),
+(151, 'widget_shapely_recent_posts', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(152, 'widget_shapely-cats', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(153, 'widget_shapely_home_parallax', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(154, 'widget_shapely_home_features', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(155, 'widget_shapely_home_testimonial', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(156, 'widget_shapely_home_cfa', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(157, 'widget_shapely_home_clients', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
+(158, 'widget_shapely_home_portfolio', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -412,7 +422,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (11, 1, 'wp_user_level', '10'),
 (12, 1, 'dismissed_wp_pointers', ''),
 (13, 1, 'show_welcome_panel', '1'),
-(14, 1, 'session_tokens', 'a:1:{s:64:"5c85386da79fea16419a76691363953e04027831c9e90bc66a5b9564597d151a";a:4:{s:10:"expiration";i:1475548919;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:5:"login";i:1475376119;}}'),
+(14, 1, 'session_tokens', 'a:2:{s:64:"5c85386da79fea16419a76691363953e04027831c9e90bc66a5b9564597d151a";a:4:{s:10:"expiration";i:1475548919;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:5:"login";i:1475376119;}s:64:"d44606009dee3c7cd247e96be9a040d375b219ea6bdefbae915bdd304b44efb8";a:4:{s:10:"expiration";i:1475550658;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:5:"login";i:1475377858;}}'),
 (15, 1, 'wp_dashboard_quick_press_last_post_id', '3');
 
 -- --------------------------------------------------------
@@ -567,7 +577,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=148;
+  MODIFY `option_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=159;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
