@@ -5,7 +5,8 @@ testable local server on multiple platforms.
 Instructions (keeping it simple):
 
 1. Copy everything in this folder to the folder that your server points to.
-2. Create a table called "wordpress" (without quotes).
+2. Create a table called "wordpress" (without quotes). If you are using MAMP,
+you can just use the included PHPMyAdmin (URL is "localhost/phpMyAdmin"). 
 3. Import the SQL file into that table.
 4. Now, when you start the server and go to the URL "localhost" in your browser,
 it should go to homepage. If this works, go to the URL "localhost/wp-admin"
