@@ -10,11 +10,13 @@ you can just use the included PHPMyAdmin (URL is "localhost/phpMyAdmin").
 3. Import the SQL file into that table.
 4. Now, when you start the server and go to the URL "localhost" in your browser,
 it should go to homepage. If this works, go to the URL "localhost/wp-admin"
-5. The username is localhost (contact us if needed for the password)
-6. Assuming you have the password, go to settings, permalinks, and just hit
+5. Username: localhost Password: D@nsNfgR&hJjQow3EQuf(4JM
+6. Next go to settings, permalinks, and just hit
 save changes (no need to actually make any changes). This will reset the
 permalink structure, allowing all the other pages besides just the homepage
 to work!
+
+also, you may eventually need to make the URLs relative instead of absolute. Meaning, the URLs for the additional pages right now are like, "http://localhost/donate" and instead they should just be /donate or something like that.
 
 This isn't the actual process for live deployment and doesn't take any security
 issues into account. It is just a rough way to view the progress of this
